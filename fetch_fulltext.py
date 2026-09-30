@@ -116,8 +116,29 @@ def plan_url(row):
     return url, "last"
 
 
-def pmc_candidates(pmcid):
-    return [("europepmc", "https://europepmc.org/backend/ptpmcrender.fcgi"
+PMC_S3 = "https://pmc-oa-opendata.s3.amazonaws.com/"
+
+
+def pmc_s3_pdfs(net, pmcid):
+    """PDFs in the PMC Article Datasets bucket (latest version first). The PMC and
+    Europe PMC web pages often answer scripts with a bot check; this bucket does not."""
+    time.sleep(net.delay)
+    try:
+        r = net.s.get(PMC_S3, params={"list-type": "2", "prefix": f"{pmcid}."}, timeout=TIMEOUT)
+    except requests.RequestException:
+        return []
+    if r.status_code != 200:
+        return []
+    keys = [k for k in re.findall(r"<Key>([^<]+\.pdf)</Key>", r.text)
+            if k.split(".", 1)[0] == pmcid]
+    keys.sort(key=lambda k: int(re.search(r"\.(\d+)/", k).group(1)) if re.search(r"\.(\d+)/", k) else 0,
+              reverse=True)
+    return [("pmc_s3", PMC_S3 + k) for k in keys]
+
+
+def pmc_candidates(net, pmcid):
+    return pmc_s3_pdfs(net, pmcid) + [
+            ("europepmc", "https://europepmc.org/backend/ptpmcrender.fcgi"
                           f"?accid={pmcid}&blobtype=pdf"),
             ("europepmc", f"https://europepmc.org/articles/{pmcid}?pdf=render"),
             ("pmc", f"https://pmc.ncbi.nlm.nih.gov/articles/{pmcid}/pdf/")]
@@ -306,7 +327,7 @@ def process(row, net, outdir, args):
     # 1. PMCID from the plan, then PMID -> Europe PMC (authoritative DOI + PMC copy)
     pmcid = clean_pmcid(row.get("pmcid"))
     if pmcid:
-        cands += pmc_candidates(pmcid)
+        cands += pmc_candidates(net, pmcid)
     if pmid:
         e = europepmc(net, pmid)
         if e:
@@ -316,7 +337,7 @@ def process(row, net, outdir, args):
                 doi = e["doi"]
             if e["pmcid"] and e["pmcid"] != pmcid:
                 pmcid = e["pmcid"]
-                cands += pmc_candidates(pmcid)
+                cands += pmc_candidates(net, pmcid)
             cands += [("europepmc", u) for u in e["urls"]]
         elif doi_csv:
             log["note"] = "PMID not found in Europe PMC; csv DOI used unverified. "
