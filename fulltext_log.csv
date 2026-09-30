@@ -1,0 +1,167 @@
+﻿study_id,status,file,source,url,doi_in_csv,doi_used,doi_mismatch,pmid,pmcid,resolved_by_title,title_match,pdf_title_check,note
+AinShamsDe2023,already_have,AinShamsDe2023.pdf,,,10.21608/asdj.2022.148480.1128,,,,,,,,
+AlAzharDen2017,no_oa_found,,,,10.21608/adjg.2017.5273,10.21608/adjg.2017.5273,,,,,,,"2 location(s) tried, none returned a PDF"
+Americanae2019,no_oa_found,,,,,,,,,,0.59,,"1 location(s) tried, none returned a PDF"
+Cumhuriyet2022,no_oa_found,,,,10.7126/cumudj.1106604,10.7126/cumudj.1106604,,,,,,,"1 location(s) tried, none returned a PDF"
+EgyptianDe2022a,no_oa_found,,,,10.21608/edj.2022.113140.1930,10.21608/edj.2022.113140.1930,,,,,,,"3 location(s) tried, none returned a PDF"
+Gupta2026,downloaded,Gupta2026.pdf,pmc_s3,https://pmc-oa-opendata.s3.amazonaws.com/PMC13252322.1/PMC13252322.1.pdf,10.6026/973206300222168,10.6026/973206300222168,,42282379,PMC13252322,,,1.00,
+Kuriakose2024,downloaded,Kuriakose2024.pdf,pmc_s3,https://pmc-oa-opendata.s3.amazonaws.com/PMC11805083.1/PMC11805083.1.pdf,10.4103/jpbs.jpbs_795_24,10.4103/jpbs.jpbs_795_24,,39926779,PMC11805083,,,1.00,
+Sinha2025,downloaded,Sinha2025.pdf,pmc_s3,https://pmc-oa-opendata.s3.amazonaws.com/PMC12788533.1/PMC12788533.1.pdf,10.4103/jpbs.jpbs_1236_25,10.4103/jpbs.jpbs_1236_25,,41522892,PMC12788533,,,1.00,
+IndianJour2021,already_have,IndianJour2021.pdf,,,10.37506/ijphrd.v12i2.14178,,,,,,,,
+Aarts2008,no_oa_found,,,,10.1111/j.1708-8208.2007.00070.x,10.1111/j.1708-8208.2007.00070.x,,18218055,,,,,"1 location(s) tried, none returned a PDF"
+BDJ2007,skipped,,,,10.1038/bdj.2007.999,,,,,,,,fetch=no in plan
+Cardoso2021,no_oa_found,,,,10.11607/ijp.7117,10.11607/ijp.7117,,33625387,,,,,"1 location(s) tried, none returned a PDF"
+Grech2022,no_oa_found,,,,10.11607/ijp.7402,10.11607/ijp.7402,,33751001,,,,,"2 location(s) tried, none returned a PDF"
+Heydecke2007,no_oa_found,,,,10.1111/j.1741-2358.2007.00153.x,10.1111/j.1741-2358.2007.00153.x,,17518954,,,,,"1 location(s) tried, none returned a PDF"
+Heydecke2008,no_oa_found,,,,,10.1038/sj.bdj.2008.807,,18560649,,,,,"1 location(s) tried, none returned a PDF"
+Lamoureux1999,no_oa_found,,,,,,,10635196,,,0.00,,"0 location(s) tried, none returned a PDF"
+Moradpoor2018b,no_oa_found,,,,10.1111/joor.12660,10.1111/joor.12660,,29851120,,,,,"1 location(s) tried, none returned a PDF"
+Sutton2007a,no_oa_found,,,,10.1016/j.prosdent.2007.03.003,10.1016/j.prosdent.2007.03.003,,17547948,,,,,"2 location(s) tried, none returned a PDF"
+Sutton2007b,no_oa_found,,,,10.1177/154405910708600713,10.1177/154405910708600713,,17586713,,,,,"1 location(s) tried, none returned a PDF"
+ActaScient2015a,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+Carreiro2020,skipped,,,,,,,,,,,,fetch=no in plan
+Dentalabst2008,skipped,,,,,,,,,,,,fetch=no in plan
+Abdelhamid2015,downloaded,Abdelhamid2015.pdf,pmc_s3,https://pmc-oa-opendata.s3.amazonaws.com/PMC5005639.1/PMC5005639.1.pdf,10.1186/s40729-015-0034-y,10.1186/s40729-015-0034-y,,27747654,PMC5005639,,,1.00,
+AdvancedDe2021,no_oa_found,,,,10.21608/adjc.2021.98417.1112,10.21608/adjc.2021.98417.1112,,,,,,,"2 location(s) tried, none returned a PDF"
+AlAzharDen2016,no_oa_found,,,,10.21608/adjg.2016.5072,10.21608/adjg.2016.5072,,,,,,,"3 location(s) tried, none returned a PDF"
+AlAzharJou2018b,no_oa_found,,,,10.21608/ajdsm.2020.71468,10.21608/ajdsm.2020.71468,,,,,,,"1 location(s) tried, none returned a PDF"
+Alexandria2016,no_oa_found,,,,10.21608/adjalexu.2016.59258,10.21608/adjalexu.2016.59258,,,,,,,"1 location(s) tried, none returned a PDF"
+Bioscience2024,already_have,Bioscience2024.pdf,,,10.14393/bj-v40n0a2024-72612,,,,,,,,
+DOAJDOAJDi2026,no_oa_found,,,,10.51253/pafmj.v76isuppl-1.13245,10.51253/pafmj.v76isuppl-1.13245,,,,,,,"1 location(s) tried, none returned a PDF"
+EgyptianDe2020,no_oa_found,,,,10.21608/edj.2020.79114,10.21608/edj.2020.79114,,,,,,,"2 location(s) tried, none returned a PDF"
+EgyptianDe2021,no_oa_found,,,,10.21608/edj.2021.66717.1544,10.21608/edj.2021.66717.1544,,,,,,,"2 location(s) tried, none returned a PDF"
+EgyptianDe2022c,no_oa_found,,,,10.21608/edj.2022.116464.1951,10.21608/edj.2022.116464.1951,,,,,,,"3 location(s) tried, none returned a PDF"
+ErbilDenta2020,no_oa_found,,,,10.15218/edj.2020.02,10.15218/edj.2020.02,,,,,,,"4 location(s) tried, none returned a PDF"
+FariasNeto2010,no_oa_found,,,,10.1590/s0103-64402010000200013,10.1590/s0103-64402010000200013,,20640365,,,,,"4 location(s) tried, none returned a PDF"
+JournalofD2017a,no_oa_found,,,,10.4103/0974-6781.225403,10.4103/0974-6781.225403,,,,,,,"1 location(s) tried, none returned a PDF"
+JournalofP2017,no_oa_found,,,,10.1088/1742-6596/884/1/012015,10.1088/1742-6596/884/1/012015,,,,,,,"2 location(s) tried, none returned a PDF"
+PakistanJo2022,already_have,PakistanJo2022.pdf,,,10.53350/pjmhs22163408,,,,,,,,
+Poljak2024,downloaded,Poljak2024.pdf,pmc_s3,https://pmc-oa-opendata.s3.amazonaws.com/PMC11433608.1/PMC11433608.1.pdf,10.3390/jpm14090921,10.3390/jpm14090921,,39338175,PMC11433608,,,1.00,
+Wang2024,downloaded,Wang2024.pdf,pmc_s3,https://pmc-oa-opendata.s3.amazonaws.com/PMC11575096.1/PMC11575096.1.pdf,10.1186/s12903-024-05144-2,10.1186/s12903-024-05144-2,,39563363,PMC11575096,,,1.00,
+Brandt2019,no_oa_found,,,,10.1007/s00784-019-02857-5,10.1007/s00784-019-02857-5,,30796588,,,,,"2 location(s) tried, none returned a PDF"
+Kawai2017,no_oa_found,,,,10.1016/j.jpor.2016.07.003,10.1016/j.jpor.2016.07.003,,27474364,,,,,"1 location(s) tried, none returned a PDF"
+Matsumaru2010,no_oa_found,,,,10.1016/j.jpor.2009.11.008,10.1016/j.jpor.2009.11.008,,20089469,,,,,"1 location(s) tried, none returned a PDF"
+Pero2019,no_oa_found,,,,10.1016/j.jpor.2019.03.005,10.1016/j.jpor.2019.03.005,,31047845,,,,,"3 location(s) tried, none returned a PDF"
+Schierz2016,no_oa_found,,,,10.1016/j.jpor.2016.03.005,10.1016/j.jpor.2016.03.005,,27067867,,,,,"1 location(s) tried, none returned a PDF"
+Deniz2013,no_oa_found,,,,10.1111/joor.12015,10.1111/joor.12015,,23189997,,,,,"1 location(s) tried, none returned a PDF"
+Moradpoor2018a,no_oa_found,,,,10.1111/joor.12579,10.1111/joor.12579,,28965369,,,,,"1 location(s) tried, none returned a PDF"
+Paleari2012,no_oa_found,,,,10.1111/j.1365-2842.2012.02299.x,10.1111/j.1365-2842.2012.02299.x,,22486470,,,,,"2 location(s) tried, none returned a PDF"
+Pereira2022,no_oa_found,,,,10.1111/ger.12610,10.1111/ger.12610,,34908185,,,,,"3 location(s) tried, none returned a PDF"
+Peroz2003,no_oa_found,,,,,,,14620212,,,0.00,,"0 location(s) tried, none returned a PDF"
+Rehmann2008,no_oa_found,,,,,10.1016/s0022-3913(08)60213-9,,18350949,,,,,"1 location(s) tried, none returned a PDF"
+Rocha2023,no_oa_found,,,,10.1016/j.prosdent.2021.06.028,10.1016/j.prosdent.2021.06.028,,34517991,,,,,"2 location(s) tried, none returned a PDF"
+SADJ2004,no_oa_found,,,,,,,15106484,,,0.00,,"0 location(s) tried, none returned a PDF"
+Shirani2014,no_oa_found,,,,10.1111/jopr.12101,10.1111/jopr.12101,,24138344,,,,,"4 location(s) tried, none returned a PDF"
+ChinaMedic2015,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+JournalofN2010,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+JournalofO2011,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+AlAzharAss2019,no_oa_found,,,,10.21608/aadj.2019.60183,10.21608/aadj.2019.60183,,,,,,,"2 location(s) tried, none returned a PDF"
+AlAzharAss2020,no_oa_found,,,,10.21608/aadj.2020.22805.1027,10.21608/aadj.2020.22805.1027,,,,,,,"1 location(s) tried, none returned a PDF"
+AlAzharAss2023,no_oa_found,,,,10.21608/aadj.2023.326293,10.21608/aadj.2023.326293,,,,,,,"2 location(s) tried, none returned a PDF"
+AlAzharDen2019a,no_oa_found,,,,10.21608/adjg.2019.7677.1088,10.21608/adjg.2019.7677.1088,,,,,,,"2 location(s) tried, none returned a PDF"
+AlAzharDen2021,no_oa_found,,,,10.21608/adjg.2021.10714.1132,10.21608/adjg.2021.10714.1132,,,,,,,"2 location(s) tried, none returned a PDF"
+AlAzharJou2018a,no_oa_found,,,,10.21608/ajdsm.2018.71481,10.21608/ajdsm.2018.71481,,,,,,,"1 location(s) tried, none returned a PDF"
+AlRafidain2012,already_have,AlRafidain2012.pdf,,,10.33899/rden.2012.42620,,,,,,,,
+Anon2002b,skipped,,,,,,,,,,,,fetch=no in plan
+Anon2024,no_oa_found,,,,10.53555/kuey.v30i6.7650,10.53555/kuey.v30i6.7650,,,,,,,"2 location(s) tried, none returned a PDF"
+DOAJDOAJDi2012,skipped,,,,,,,,,,,,fetch=no in plan
+DOAJDOAJDi2015,unresolved,,,,,,,,,,0.32,,no close title match (best 0.32); search manually
+EgyptianDe2016a,no_oa_found,,,,10.21608/edj.2016.95122,10.21608/edj.2016.95122,,,,,,,"2 location(s) tried, none returned a PDF"
+EgyptianDe2016b,no_oa_found,,,,10.21608/edj.2016.96968,10.21608/edj.2016.96968,,,,,,,"1 location(s) tried, none returned a PDF"
+EgyptianDe2018a,no_oa_found,,,,10.21608/edj.2018.79510,10.21608/edj.2018.79510,,,,,,,"2 location(s) tried, none returned a PDF"
+EgyptianDe2018b,no_oa_found,,,,10.21608/edj.2018.77246,10.21608/edj.2018.77246,,,,,,,"1 location(s) tried, none returned a PDF"
+Emam2023,downloaded,Emam2023.pdf,pmc_s3,https://pmc-oa-opendata.s3.amazonaws.com/PMC10729887.1/PMC10729887.1.pdf,10.4103/jispcd.jispcd_64_23,10.4103/jispcd.jispcd_64_23,,38124728,PMC10729887,,,1.00,
+Internatio2020,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+JournalofD2014b,downloaded,JournalofD2014b.pdf,unpaywall,https://www.banglajol.info/index.php/JDNMCH/article/download/77802/51282,10.3329/jdnmch.v20i2.77802,10.3329/jdnmch.v20i2.77802,,,,,,1.00,
+JournalofD2017b,no_oa_found,,,,10.4103/2277-8632.202580,10.4103/2277-8632.202580,,,,,,,"2 location(s) tried, none returned a PDF"
+Koide2004,downloaded,Koide2004.pdf,unpaywall,https://www.jstage.jst.go.jp/article/jjps1957/48/5/48_5_681/_pdf,10.2186/jjps.48.681,10.2186/jjps.48.681,,15818001,,,,1.00,
+NihonHotet2000,downloaded,NihonHotet2000.pdf,unpaywall,https://www.jstage.jst.go.jp/article/jjps1957/44/2/44_2_339/_pdf,10.2186/jjps.44.339,10.2186/jjps.44.339,,,,,,1.00,
+Prosthodon2002,downloaded,Prosthodon2002.pdf,unpaywall,https://www.jstage.jst.go.jp/article/prp/1/1/1_1_31/_pdf,10.2186/prp.1.31,10.2186/prp.1.31,,,,,,0.00,PDF first pages do not match the title - open it and check.
+TheJournal1990,downloaded,TheJournal1990.pdf,unpaywall,https://www.jstage.jst.go.jp/article/kds/44/3/44_KJ00003276059/_pdf,10.2504/kds.44.582,10.2504/kds.44.582,,,,,,1.00,
+Chaturvedi2021a,no_oa_found,,,,10.3233/thc-202736,10.3233/thc-202736,,33720863,,,,,"1 location(s) tried, none returned a PDF"
+Chaturvedi2021b,no_oa_found,,,,10.3233/thc-202766,10.3233/thc-202766,,33749624,,,,,"1 location(s) tried, none returned a PDF"
+Berg1988,no_oa_found,,,,10.1016/0300-5712(88)90122-4,10.1016/0300-5712(88)90122-4,,3065374,,,,,"1 location(s) tried, none returned a PDF"
+Brewer1967,no_oa_found,,,,10.1016/0022-3913(67)90047-9,10.1016/0022-3913(67)90047-9,,5224785,,,,,"1 location(s) tried, none returned a PDF"
+Brudvik1990,no_oa_found,,,,,,,2133382,,,0.00,,"0 location(s) tried, none returned a PDF"
+Clough1983a,no_oa_found,,,,10.1016/0022-3913(83)90007-0,10.1016/0022-3913(83)90007-0,,6352901,,,,,"1 location(s) tried, none returned a PDF"
+Clough1983b,skipped,,,,,,,,,,,,fetch=no in plan
+Grubwieser1999,no_oa_found,,,,10.1046/j.1365-2842.1999.00438.x,10.1046/j.1365-2842.1999.00438.x,,10520148,,,,,"1 location(s) tried, none returned a PDF"
+Grunert1994,no_oa_found,,,,10.1111/j.1365-2842.1994.tb01148.x,10.1111/j.1365-2842.1994.tb01148.x,,8057200,,,,,"1 location(s) tried, none returned a PDF"
+JournalofD1974,no_oa_found,,,,10.1177/00220345740530062801,10.1177/00220345740530062801,,4610022,,,,,"1 location(s) tried, none returned a PDF"
+JournalofP1961,no_oa_found,,,,10.1016/0022-3913(61)90110-x,10.1016/0022-3913(61)90110-x,,,,,,,"1 location(s) tried, none returned a PDF"
+Kamalakidis2023,no_oa_found,,,,10.11607/ijp.7367,10.11607/ijp.7367,,33662056,,,,,"1 location(s) tried, none returned a PDF"
+Khamis1998a,no_oa_found,,,,10.1016/s0022-3913(98)70156-8,10.1016/s0022-3913(98)70156-8,,9576317,,,,,"1 location(s) tried, none returned a PDF"
+Khamis1998b,skipped,,,,,,,,,,,,fetch=no in plan
+Kimoto2006,no_oa_found,,,,,,,16479769,,,0.00,,"0 location(s) tried, none returned a PDF"
+Miralles1989,no_oa_found,,,,10.1016/0022-3913(89)90021-8,10.1016/0022-3913(89)90021-8,,2724159,,,,,"2 location(s) tried, none returned a PDF"
+Moradpoor2020,no_oa_found,,,,10.1111/joor.12918,10.1111/joor.12918,,31804709,,,,,"1 location(s) tried, none returned a PDF"
+TheJournal1931,no_oa_found,,,,10.14219/jada.archive.1931.0115,10.14219/jada.archive.1931.0115,,,,,,,"1 location(s) tried, none returned a PDF"
+Yoshida1988a,no_oa_found,,,,10.1111/j.1365-2842.1988.tb00171.x,10.1111/j.1365-2842.1988.tb00171.x,,3049998,,,,,"1 location(s) tried, none returned a PDF"
+Yoshida1988b,skipped,,,,,,,,,,,,fetch=no in plan
+ActaScient2005,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+ActaScient2009,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+ActaScient2012c,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+ActaScient2014b,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+Anon2002a,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+Anon2006,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+Anon2009,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+Anon2010b,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+Anon2013b,unresolved,,,,,,,,,,0.33,,no close title match (best 0.33); search manually
+BeijingJou2012,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+Anon2019,skipped,,,,,,,,,,,,fetch=no in plan
+Paleari2011,skipped,,,,,,,,,,,,fetch=no in plan
+AlAzharDen2019b,no_oa_found,,,,10.21608/adjg.2019.42309,10.21608/adjg.2019.42309,,,,,,,"2 location(s) tried, none returned a PDF"
+AlAzharDen2019c,no_oa_found,,,,10.21608/adjg.2019.5985.1038,10.21608/adjg.2019.5985.1038,,,,,,,"1 location(s) tried, none returned a PDF"
+Anon2012,no_oa_found,,,,10.58837/chula.the.2012.290,10.58837/chula.the.2012.290,,,,,,,"1 location(s) tried, none returned a PDF"
+Diao2026,no_oa_found,,,,10.19723/j.issn.1671-167x.2026.01.017,10.19723/j.issn.1671-167x.2026.01.017,,41633595,PMC12872305,,,,"5 location(s) tried, none returned a PDF"
+EgyptianDe2022b,no_oa_found,,,,10.21608/edj.2022.156114.2215,10.21608/edj.2022.156114.2215,,,,,,,"2 location(s) tried, none returned a PDF"
+Guttal2013,no_oa_found,,,,10.1007/s13191-013-0260-z,10.1007/s13191-013-0260-z,,24431715,PMC3634947,,,,"7 location(s) tried, none returned a PDF"
+Hashimoto2018,downloaded,Hashimoto2018.pdf,pmc_s3,https://pmc-oa-opendata.s3.amazonaws.com/PMC5898015.1/PMC5898015.1.pdf,10.2174/1874210601812010255,10.2174/1874210601812010255,,29760818,PMC5898015,,,1.00,
+IOSRJourna2017,no_oa_found,,,,10.9790/0853-160304100104,10.9790/0853-160304100104,,,,,,,"1 location(s) tried, none returned a PDF"
+Internatio2017,unresolved,,,,,,,,,,0.40,,no close title match (best 0.40); search manually
+JournalofE2019,downloaded,JournalofE2019.pdf,unpaywall,https://www.jemds.com/data_pdf/annis%20thomas-i-Oct-14-.pdf,10.14260/jemds/2019/799,10.14260/jemds/2019/799,,,,,,1.00,
+LAReferenc2016,no_oa_found,,,,,10.1155/2016/7418686,,,,crossref,1.00,,"3 location(s) tried, none returned a PDF"
+NihonHotet1980,downloaded,NihonHotet1980.pdf,unpaywall,https://www.jstage.jst.go.jp/article/jjps1957/24/1/24_1_8/_pdf,10.2186/jjps.24.8,10.2186/jjps.24.8,,,,,,1.00,
+NihonHotet1982,downloaded,NihonHotet1982.pdf,unpaywall,https://www.jstage.jst.go.jp/article/jjps1957/26/2/26_2_413/_pdf,10.2186/jjps.26.413,10.2186/jjps.26.413,,,,,,,
+Posti2012,no_oa_found,,,,,10.2298/vsp110716017p,,23424959,,,,,"4 location(s) tried, none returned a PDF"
+ResearchSq2024,downloaded,ResearchSq2024.pdf,unpaywall,https://assets-eu.researchsquare.com/files/rs-4615206/v1/056eb6d9-3f96-4d13-a839-32aff4fbc65c.pdf?c=1732550820,10.21203/rs.3.rs-4615206/v1,10.21203/rs.3.rs-4615206/v1,,,,,,0.92,
+SeoulNatio2007,unresolved,,,,,,,,,,0.32,,no close title match (best 0.32); search manually
+TheJournal1992,downloaded,TheJournal1992.pdf,unpaywall,https://www.jstage.jst.go.jp/article/kds/46/4/46_KJ00003276484/_pdf,10.2504/kds.46.602,10.2504/kds.46.602,,,,,,1.00,
+TheJournal2020,no_oa_found,,,,10.4047/jkap.2020.58.4.328,10.4047/jkap.2020.58.4.328,,,,,,,"1 location(s) tried, none returned a PDF"
+Thomas2023,downloaded,Thomas2023.pdf,pmc_s3,https://pmc-oa-opendata.s3.amazonaws.com/PMC9988544.1/PMC9988544.1.pdf,10.1016/j.jobcr.2023.02.005,10.1016/j.jobcr.2023.02.005,,36896353,PMC9988544,,,1.00,
+Yoshitomi1997,downloaded,Yoshitomi1997.pdf,unpaywall,https://www.jstage.jst.go.jp/article/koubyou1952/64/3/64_3_436/_pdf,10.5357/koubyou.64.436,10.5357/koubyou.64.436,,9364817,,,,1.00,
+Ma2012,no_oa_found,,,,,,,23135128,,,0.28,,"0 location(s) tried, none returned a PDF"
+Drago1984,no_oa_found,,,,10.1016/0022-3913(84)90315-9,10.1016/0022-3913(84)90315-9,,6374111,,,,,"1 location(s) tried, none returned a PDF"
+JournalofD1960,no_oa_found,,,,10.1177/00220345600390020701,10.1177/00220345600390020701,,14445613,,,,,"1 location(s) tried, none returned a PDF"
+JournalofP1951,no_oa_found,,,,10.1016/0022-3913(51)90077-7,10.1016/0022-3913(51)90077-7,,14814646,,,,,"1 location(s) tried, none returned a PDF"
+JournalofP1956,no_oa_found,,,,10.1016/0022-3913(56)90018-x,10.1016/0022-3913(56)90018-x,,,,,,,"1 location(s) tried, none returned a PDF"
+JournalofP1963,no_oa_found,,,,10.1016/0022-3913(63)90099-4,10.1016/0022-3913(63)90099-4,,,,,,,"1 location(s) tried, none returned a PDF"
+Ludwig1976,no_oa_found,,,,,,,1066267,,,0.57,,"0 location(s) tried, none returned a PDF"
+Niwatcharoench2014,no_oa_found,,,,10.1016/j.prosdent.2014.06.003,10.1016/j.prosdent.2014.06.003,,25062582,,,,,"1 location(s) tried, none returned a PDF"
+Ono1988,no_oa_found,,,,,,,3272363,,,0.00,,"0 location(s) tried, none returned a PDF"
+Srinivasan2023,no_oa_found,,,,10.1016/j.prosdent.2021.07.015,10.1016/j.prosdent.2021.07.015,,34429196,,,,,"1 location(s) tried, none returned a PDF"
+TheJournal1928,no_oa_found,,,,10.14219/jada.archive.1928.0195,10.14219/jada.archive.1928.0195,,,,,,,"1 location(s) tried, none returned a PDF"
+TheJournal1935,no_oa_found,,,,10.14219/jada.archive.1935.0108,10.14219/jada.archive.1935.0108,,,,,,,"1 location(s) tried, none returned a PDF"
+Yu2013,no_oa_found,,,,,,,24438569,,,0.00,,"0 location(s) tried, none returned a PDF"
+ActaScient1998,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+ActaScient2012a,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+ActaScient2012b,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+ActaScient2013a,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+ActaScient2013b,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+ActaScient2014a,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+ActaScient2015b,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+Anon2008,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+Anon2010a,unresolved,,,,,,,,,,0.51,,no close title match (best 0.51); search manually
+Anon2011,unresolved,,,,,,,,,,0.84,,no close title match (best 0.84); search manually
+Anon2013a,unresolved,,,,,,,,,,0.61,,no close title match (best 0.61); search manually
+Anon2015a,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+Anon2015b,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+BeijingJou2011,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+ChineseJou2013,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+JournalofD2014a,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+Aarts2005,skipped,,,,,,,,,,,,fetch=no in plan
+DeMedeiros2010,skipped,,,,,,,,,,,,fetch=no in plan
+Howell1990,skipped,,,,,,,,,,,,fetch=no in plan
+Martins2011,skipped,,,,,,,,,,,,fetch=no in plan
+Nagao1996,skipped,,,,,,,,,,,,fetch=no in plan
+Ahmed2013,no_oa_found,,,,,,,,,,0.35,,"1 location(s) tried, none returned a PDF"
