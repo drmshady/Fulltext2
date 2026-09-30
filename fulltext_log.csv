@@ -165,3 +165,14 @@ Howell1990,skipped,,,,,,,,,,,,fetch=no in plan
 Martins2011,skipped,,,,,,,,,,,,fetch=no in plan
 Nagao1996,skipped,,,,,,,,,,,,fetch=no in plan
 Ahmed2013,no_oa_found,,,,,,,,,,0.35,,"1 location(s) tried, none returned a PDF"
+Kwon1996,downloaded,Kwon1996.pdf,koreascience,https://koreascience.kr/article/JAKO199624718497009.pdf,,,,,,,,,"scanned PDF, verified page 1"
+Kwon1994,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
+Trapozzano1952,no_oa_found,,,,10.1016/0022-3913(52)90083-8,10.1016/0022-3913(52)90083-8,,,,,,,"1 location(s) tried, none returned a PDF"
+Payne1951,no_oa_found,,,,10.1016/0022-3913(51)90064-9,10.1016/0022-3913(51)90064-9,,,,,,,"1 location(s) tried, none returned a PDF"
+Nasr1967,no_oa_found,,,,10.1016/0022-3913(67)90105-9,10.1016/0022-3913(67)90105-9,,,,,,,"1 location(s) tried, none returned a PDF"
+Schultz1951,no_oa_found,,,,10.1016/0022-3913(51)90078-9,10.1016/0022-3913(51)90078-9,,,,,,,"1 location(s) tried, none returned a PDF"
+Bascom1962,no_oa_found,,,,10.1016/0022-3913(62)90127-0,10.1016/0022-3913(62)90127-0,,,,,,,"1 location(s) tried, none returned a PDF"
+Woelfel1962,no_oa_found,,,,10.1016/0022-3913(62)90045-8,10.1016/0022-3913(62)90045-8,,,,,,,"1 location(s) tried, none returned a PDF"
+Hickey1959,no_oa_found,,,,10.1016/0022-3913(59)90082-4,10.1016/0022-3913(59)90082-4,,,,,,,"1 location(s) tried, none returned a PDF"
+Hisamatsu1978,downloaded,Hisamatsu1978.pdf,unpaywall,https://www.jstage.jst.go.jp/article/jjps1957/22/1/22_1_15/_pdf,10.2186/jjps.22.15,10.2186/jjps.22.15,,,,,,0.91,
+Noda1980,downloaded,Noda1980.pdf,unpaywall,https://www.jstage.jst.go.jp/article/jjps1957/25/2/25_2_314/_pdf,10.2186/jjps.25.314,10.2186/jjps.25.314,,,,,,1.00,
