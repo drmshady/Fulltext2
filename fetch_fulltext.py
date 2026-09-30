@@ -15,8 +15,11 @@ Output
     fulltext_log.csv             one row per study_id: what happened and why
 
 Order of attempts per record
-    0. plan  -> oa_url column, only where oa_search_result starts with "open"
-    1. PMID  -> Europe PMC   (authoritative DOI + PMCID; PDF/XML if in PMC)
+    0. plan  -> oa_url column: first when oa_search_result says "open", otherwise
+               tried last (never when it says "no open copy", a trial registration
+               or an abstract)
+    1. PMCID -> pmcid column, Europe PMC / PMC PDF
+       PMID  -> Europe PMC   (authoritative DOI + PMCID; PDF/XML if in PMC)
     2. no id -> Crossref, then OpenAlex title search (accepted only on a close title match)
     3. DOI   -> Unpaywall, OpenAlex, Semantic Scholar OA locations
     4. DOI   -> publisher landing page, <meta name="citation_pdf_url">
@@ -91,6 +94,33 @@ def clean_title(t):
         latin = [p for p in parts if re.search(r"[A-Za-z]{4,}", p)]
         t = (latin or parts or [t])[-1]
     return t.strip("[]. ")
+
+
+def clean_pmcid(p):
+    m = re.search(r"(?:PMC)?(\d+)", (p or "").strip(), re.I)
+    return f"PMC{m.group(1)}" if m else ""
+
+
+# oa_search_result wording that means the hand-found oa_url is not the paper itself
+NOT_THE_PAPER = re.compile(r"^no open copy|trial registration|poster abstract|abstract only", re.I)
+
+
+def plan_url(row):
+    """-> (url, where): where is "first" (marked open), "last" (unconfirmed) or "" (unusable)."""
+    url = (row.get("oa_url") or "").strip()
+    result = (row.get("oa_search_result") or "").strip()
+    if not url.lower().startswith("http") or NOT_THE_PAPER.search(result):
+        return url, ""
+    if re.match(r"(probable match, )?open\b", result, re.I):
+        return url, "first"
+    return url, "last"
+
+
+def pmc_candidates(pmcid):
+    return [("europepmc", "https://europepmc.org/backend/ptpmcrender.fcgi"
+                          f"?accid={pmcid}&blobtype=pdf"),
+            ("europepmc", f"https://europepmc.org/articles/{pmcid}?pdf=render"),
+            ("pmc", f"https://pmc.ncbi.nlm.nih.gov/articles/{pmcid}/pdf/")]
 
 
 class Net:
@@ -260,35 +290,41 @@ def process(row, net, outdir, args):
     if target.exists() and not args.overwrite:
         log.update(status="already_have", file=target.name)
         return log
+    if args.skip_got and (row.get("got") or "").strip().lower() == "yes":
+        log.update(status="skipped", note="got=yes in plan (--skip-got)")
+        return log
 
-    doi, cands = doi_csv, []
+    doi, cands, last = doi_csv, [], []
 
-    # 0. an open copy already located by hand in the plan (oa_url marked "open ...")
-    hand_url = (row.get("oa_url") or "").strip()
-    if hand_url and (row.get("oa_search_result") or "").strip().lower().startswith("open"):
+    # 0. an open copy located by hand in the plan: first if marked open, else as a last resort
+    hand_url, where = plan_url(row)
+    if where == "first":
         cands.append(("plan_oa_url", hand_url))
+    elif where == "last":
+        last.append(("plan_oa_url_unconfirmed", hand_url))
 
-    # 1. PMID is the most trustworthy key: take DOI and PMC copy from Europe PMC
+    # 1. PMCID from the plan, then PMID -> Europe PMC (authoritative DOI + PMC copy)
+    pmcid = clean_pmcid(row.get("pmcid"))
+    if pmcid:
+        cands += pmc_candidates(pmcid)
     if pmid:
         e = europepmc(net, pmid)
         if e:
-            log["pmcid"] = e["pmcid"]
             if e["doi"] and doi_csv and e["doi"] != doi_csv:
                 log["doi_mismatch"] = f"csv DOI differs from PubMed DOI {e['doi']}"
             if e["doi"]:
                 doi = e["doi"]
-            if e["pmcid"]:
-                cands.append(("europepmc", "https://europepmc.org/backend/ptpmcrender.fcgi"
-                                            f"?accid={e['pmcid']}&blobtype=pdf"))
-                cands.append(("europepmc", f"https://europepmc.org/articles/{e['pmcid']}?pdf=render"))
-                if args.xml and e["is_oa"]:
-                    r = net.get("https://www.ebi.ac.uk/europepmc/webservices/rest/"
-                                f"{e['pmcid']}/fullTextXML")
-                    if r is not None and r.status_code == 200 and r.content.lstrip()[:1] == b"<":
-                        (outdir / f"{sid}.xml").write_bytes(r.content)
+            if e["pmcid"] and e["pmcid"] != pmcid:
+                pmcid = e["pmcid"]
+                cands += pmc_candidates(pmcid)
             cands += [("europepmc", u) for u in e["urls"]]
         elif doi_csv:
             log["note"] = "PMID not found in Europe PMC; csv DOI used unverified. "
+    log["pmcid"] = pmcid
+    if pmcid and args.xml:          # the endpoint answers 404 when the paper is not OA
+        r = net.get(f"https://www.ebi.ac.uk/europepmc/webservices/rest/{pmcid}/fullTextXML")
+        if r is not None and r.status_code == 200 and r.content.lstrip()[:1] == b"<":
+            (outdir / f"{sid}.xml").write_bytes(r.content)
 
     # 2. no DOI yet: resolve by title
     if not doi:
@@ -302,7 +338,7 @@ def process(row, net, outdir, args):
                 doi = rdoi
                 log["resolved_by_title"] = src
                 cands += [(src, u) for u in rurls]
-            elif not pmid and not cands:
+            elif not pmid and not cands and not last:
                 log.update(status="unresolved",
                            note=f"no close title match (best {score:.2f}); search manually")
                 return log
@@ -312,6 +348,7 @@ def process(row, net, outdir, args):
         log["doi_used"] = doi
         cands += oa_candidates(net, doi, args.openalex_key)
         cands.append(("landing_page", f"https://doi.org/{doi}"))
+    cands += last
 
     tried, seen = 0, set()
     for src, url in cands:
@@ -329,6 +366,8 @@ def process(row, net, outdir, args):
                     note += "PDF first pages do not match the title - open it and check. "
             except ValueError:
                 pass
+            if src == "plan_oa_url_unconfirmed":
+                note += "Came from an oa_url the plan did not confirm as open - check it is the paper. "
             if log["doi_mismatch"]:
                 note += "DOI in your CSV points to another paper - fix the record. "
             log.update(status="downloaded", file=target.name, source=src, url=final_url,
@@ -350,6 +389,9 @@ def main():
     ap.add_argument("--xml", action="store_true", help="also save Europe PMC full-text XML")
     ap.add_argument("--only", default="", help="comma-separated study_ids to process")
     ap.add_argument("--overwrite", action="store_true")
+    ap.add_argument("--skip-got", action="store_true",
+                    help='skip rows whose "got" column is "yes" (off by default: those were read '
+                         "through a connector, not saved as PDFs)")
     ap.add_argument("--delay", type=float, default=1.0, help="seconds between requests")
     ap.add_argument("--min-title-match", type=float, default=0.88)
     args = ap.parse_args()
