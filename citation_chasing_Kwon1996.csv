@@ -1,0 +1,25 @@
+﻿direction,ref_no,relevance,first_author,year,title,source,doi,in_plan,note
+backward,9,high,"Kwon KR, Lee SH, Woo YH, Choi DG, Choi BB, Park NS",1994,"인공구치 형태 차이에 따른 저작효율과 근전도에 관한 실험적 연구(I) [Masticatory efficiency and EMG by artificial posterior tooth form, Part I]",Kyung Hee Med 10:103-113,,no,"Part I of the same Kyung Hee study - possibly overlapping patients; not found online, ask Kyung Hee library"
+backward,60,high,"Trapozzano VR, Lazzari JB",1952,An experimental study of the testing of occlusal patterns on the same denture base,J Prosthet Dent 2:440-457,10.1016/0022-3913(52)90083-8,no,crossover of occlusal patterns on one denture base; this DOI was wrongly attached to Guttal2013 in the audit
+backward,57,high,Payne SH,1951,A study of posterior occlusion in duplicate dentures,J Prosthet Dent 1:322-326,10.1016/0022-3913(51)90064-9,no,duplicate dentures with different posterior occlusion
+backward,8,high,"Nasr MF, George WA, Travalini EA, Scott RH",1967,The relative efficiency of different types of posterior teeth,J Prosthet Dent 18:3-11,10.1016/0022-3913(67)90105-9,no,
+backward,59,high,Schultz AW,1951,Comfort and chewing efficiency in dentures,J Prosthet Dent 1:38-48,10.1016/0022-3913(51)90078-9,no,
+backward,61,high,Bascom PW,1962,Masticatory efficiency of complete dentures,J Prosthet Dent 12:453-459,10.1016/0022-3913(62)90127-0,no,
+backward,15,high,"Woelfel JB, Hickey JC, Allison ML",1962,Effect of posterior tooth form on jaw and denture movement,J Prosthet Dent 12:922-939,10.1016/0022-3913(62)90045-8,no,
+backward,89,high,"Hickey JC, Kreider JA, Boucher CO, Storz O",1959,A method of studying the influence of occlusal schemes on muscular activity,J Prosthet Dent 9:498-505,10.1016/0022-3913(59)90082-4,no,"check against JournalofP1963 in plan (same group, later paper)"
+backward,70,high,Hisamatsu M,1978,Studies on mastication and biting forces of differences from occlusal form of artificial posterior teeth of complete dentures,J Jpn Prosthodont Soc 22:22-35,10.2186/jjps.22.15,no,Crossref gives first page 15; related to the NihonHotet1980/1982 series in plan
+backward,81,high,Noda H et al.,1980,Studies on masticatory efficiency and occlusal contacts for mechanical posterior teeth of complete dentures,J Jpn Prosthodont Soc 24:395-400,10.2186/jjps.25.314,no,"DOI found is 1981 vol 25 p314 - may be a sequel, verify"
+backward,58,medium,Thompson MJ,1937,Masticatory efficiency as related to cusp form in denture prosthesis,J Am Dent Assoc / Dent Cosmos 24:207-219,10.14219/jada.archive.1937.0048,no,
+backward,7,medium,Lambrecht JR,1965,The influence of occlusal contact area on chewing performance,J Prosthet Dent 15:444-451,10.1016/s0022-3913(65)80012-9,no,
+backward,23,medium,"Toyoda S, Miyake S, Sato H",1979,Lingual bladed teeth を使用した総義歯,Nihon Shika Hyoron 442:113-120,,no,bladed/lingualized teeth; Japanese trade journal
+backward,62,low,Sobolik CF,1938,Observation on occlusal forms by an edentulous patient,Dent Items Int 60:762-771,,no,single-patient observation
+backward,4,low,Kelly EK,1975,Factors affecting the masticatory performance of complete denture wearers,J Prosthet Dent 33:122-136,10.1016/s0022-3913(75)80103-x,no,background
+backward,19,low,Levin B,1977,A review of artificial posterior tooth forms including a preliminary report on a new posterior tooth,J Prosthet Dent 38:3-15,10.1016/0022-3913(77)90260-8,no,review; describes Levin teeth
+backward,65,low,"Sato T, Hatate S",1995,The influence of the occlusal configuration on food crushing,J Jpn Prosthodont Soc 39:84-96,10.2186/jjps.39.84,no,in vitro
+backward,30,low,Sears VH,1953,Thirty years of nonanatomic teeth,J Prosthet Dent 3:596-617,10.1016/0022-3913(53)90056-0,no,historical review
+backward,35,low,Hardy IR,1951,The developments in the occlusal patterns of artificial teeth,J Prosthet Dent 1:14-28,10.1016/0022-3913(51)90075-3,no,historical review
+backward,37,low,Levin B,1972,Monoplane teeth,J Am Dent Assoc 85:781-783,10.14219/jada.archive.1972.0419,no,narrative
+backward,66,high,"Brewer AA, Reibel PR, Nassif NJ",1967,Comparison of zero degree teeth and anatomic teeth on complete dentures,J Prosthet Dent 17:28-35,10.1016/0022-3913(67)90047-9,yes (Brewer1967),
+backward,36,medium,Sosin MB,1961,Re-evaluation of posterior tooth forms for complete dentures,J Prosthet Dent 11:55-61,10.1016/0022-3913(61)90110-x,yes (JournalofP1961),
+forward,,low,"Lim S, Kwon KR, Noh K, Paek J",2018,Complete denture of a skeletal class III patient with occlusal scheme in consideration: a case report,J Korean Acad Prosthodont 56:50,10.4047/jkap.2018.56.1.50,no,case report citing Kwon 1996
+forward,,low,,2012,Considerations for increasing denture stability: a case report,J Korean Acad Prosthodont 50(4):311,10.4047/jkap.2012.50.4.311,no,case report citing Kwon 1996
