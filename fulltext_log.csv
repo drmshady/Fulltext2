@@ -2,7 +2,7 @@
 AinShamsDe2023,already_have,AinShamsDe2023.pdf,,,10.21608/asdj.2022.148480.1128,,,,,,,,
 AlAzharDen2017,no_oa_found,,,,10.21608/adjg.2017.5273,10.21608/adjg.2017.5273,,,,,,,"2 location(s) tried, none returned a PDF"
 Americanae2019,no_oa_found,,,,,,,,,,0.59,,"1 location(s) tried, none returned a PDF"
-Cumhuriyet2022,no_oa_found,,,,10.7126/cumudj.1106604,10.7126/cumudj.1106604,,,,,,,"1 location(s) tried, none returned a PDF"
+Cumhuriyet2022,downloaded,Cumhuriyet2022.pdf,web_search,https://dergipark.org.tr/en/download/article-file/2386978,10.7126/cumudj.1106604,10.7126/cumudj.1106604,,,,,,1.00,"found by web search, downloaded separately"
 EgyptianDe2022a,no_oa_found,,,,10.21608/edj.2022.113140.1930,10.21608/edj.2022.113140.1930,,,,,,,"3 location(s) tried, none returned a PDF"
 Gupta2026,downloaded,Gupta2026.pdf,pmc_s3,https://pmc-oa-opendata.s3.amazonaws.com/PMC13252322.1/PMC13252322.1.pdf,10.6026/973206300222168,10.6026/973206300222168,,42282379,PMC13252322,,,1.00,
 Kuriakose2024,downloaded,Kuriakose2024.pdf,pmc_s3,https://pmc-oa-opendata.s3.amazonaws.com/PMC11805083.1/PMC11805083.1.pdf,10.4103/jpbs.jpbs_795_24,10.4103/jpbs.jpbs_795_24,,39926779,PMC11805083,,,1.00,
@@ -17,7 +17,7 @@ Heydecke2008,no_oa_found,,,,,10.1038/sj.bdj.2008.807,,18560649,,,,,"1 location(s
 Lamoureux1999,no_oa_found,,,,,,,10635196,,,0.00,,"0 location(s) tried, none returned a PDF"
 Moradpoor2018b,no_oa_found,,,,10.1111/joor.12660,10.1111/joor.12660,,29851120,,,,,"1 location(s) tried, none returned a PDF"
 Sutton2007a,no_oa_found,,,,10.1016/j.prosdent.2007.03.003,10.1016/j.prosdent.2007.03.003,,17547948,,,,,"2 location(s) tried, none returned a PDF"
-Sutton2007b,no_oa_found,,,,10.1177/154405910708600713,10.1177/154405910708600713,,17586713,,,,,"1 location(s) tried, none returned a PDF"
+Sutton2007b,downloaded,Sutton2007b.pdf,web_search,https://www.finlaysutton.co.uk/files/download/documents/JDR%20Sutton%20RCT%20occlusal%20schemes.pdf,10.1177/154405910708600713,10.1177/154405910708600713,,17586713,,,,1.00,"found by web search, downloaded separately"
 ActaScient2015a,unresolved,,,,,,,,,,0.00,,no close title match (best 0.00); search manually
 Carreiro2020,skipped,,,,,,,,,,,,fetch=no in plan
 Dentalabst2008,skipped,,,,,,,,,,,,fetch=no in plan
